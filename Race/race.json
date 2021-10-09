@@ -1,0 +1,102 @@
+{
+	"_meta": {
+		"sources": [
+			{
+				"json": "Fungus Folk",
+				"abbreviation": "FngsFlk",
+				"full": "MystaraFfolusFungusFolk",
+				"authors": [
+					"earlten"
+				],
+				"version": "1.0.0",
+				"url": "https://github.com/earlten/homebrew",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 0,
+		"dateLastModified": 0
+	},
+	"race": [
+		{
+			"name": "Fungus Folk",
+			"source": "Mystara",
+	"ability": [
+		{
+			"choose": {
+					"from": [
+						"str",
+						"dex",
+						"con",
+						"int",
+						"wis",
+						"cha"
+					],
+				"count": 2,
+				"amount": 2
+			}
+		}
+	],
+			"size": [
+				"V"
+			],
+			"speed": 35,
+			"darkvision": 60,
+			"entries": [
+				{
+					"type": "entries",
+					"name": "Fungal",
+					"entries": [
+						"You are vulnerable to fire damage, but resistant to piercing damage."
+					]
+				},
+				{
+					"type": "entries",
+					"name": "Undead Nature",
+					"entries": [
+						"You are immune to poison. You don't require air, food, drink, or sleep."
+					]
+				},
+				{
+					"name": "Darkvision",
+					"entries": [
+						"You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray."
+					],
+					"type": "entries"
+				},
+				{
+					"name": "Languages",
+					"entries": [
+						"Gifted with the ability to talk shit even after death, you can speak, read, and write Common."
+					],
+					"type": "entries"
+				}
+			],
+			"fluff": {
+				"entries": [
+					"Some assembly required."
+				]
+			},
+			"traitTags": [
+				"Improved Resting"
+			],
+			"resist": [
+				"piercing"
+			],
+			"immune": [
+				"poison"
+			]
+			"languageProficiencies": [
+				{
+					"any": 3,
+					"anyStandard": 1
+				}
+			]
+			"skillProficiencies": [
+			{
+				"history": true,
+				"nature": true
+			}
+			]
+		}
+	]
+}
